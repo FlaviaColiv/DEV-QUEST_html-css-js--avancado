@@ -1,0 +1,64 @@
+body {
+    background-color: rgba(128, 128, 128, 0.274);
+    color: #9c7602d8;
+}
+
+.cabecalho {
+    padding: 10px 5px;
+    background-color: rgba(59, 240, 240, 0.16);
+    border: solid 5px rgba(178, 0, 249, 0.171);
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: goldenrod
+}
+
+a:hover {
+    background-color: #D1c4e9;
+    color: #5900fd;
+}
+
+article {
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 20px;
+    border: solid 10px rgba(225, 0, 255, 0.209);
+    background-color: rgba(164, 251, 222, 0.416);
+    border-radius: 15px;
+}
+
+.logo-img {
+    background-size: cover;
+    height: 100px;
+    margin-left: 20px;
+}
+
