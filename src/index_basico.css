@@ -20,14 +20,17 @@ body {
     float: right;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 0.5%;
+    transform: translatey(-50%);
+    text-align: end;
+    
 
 }
 
 .cabecalho nav li {
     display: inline-block;
     padding: 10px;
+    
 }
 
 a {
@@ -36,10 +39,13 @@ a {
     padding: 10px;
     color: black;
     text-decoration: none;
+    border: solid 1px #D1c4e9;
+    background-color: #d1c4e92d;
 }
 
 a:visited {
-    color: goldenrod
+    color: goldenrod;
+    
 }
 
 a:hover {
