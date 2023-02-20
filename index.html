@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="pt-br">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./src/reset.css">
     <link rel="stylesheet" href="./src/index_basico.css">
     <link rel="stylesheet" href="./src/html_css_js-AVANCADO.css">
+    <link rel="shortcut icon" href="./images/logoESSE FULLSTACK/favicon_io/favicon.ico" type="image/x-icon">
 
 
 
@@ -25,6 +26,43 @@
         </nav>
 
     </header>
+
+    <article class="aula3">
+        <h1>Aula 3 - Adicionar Emoji ou Caractere</h1>
+        <p>
+        Lista Completa de Entidades: http://arquivo.devmedia.com.br/artigos/devmedia/h
+        <br><br>
+        Lista de Emojis: https://www.w3schools.com/charsets/ref_emoji.asp
+        <br><br>
+        Utiliza ENTIDADES. <br><br>
+            ("& copy;") - insere simbolo de copyrite <br>
+        "& nbsp;" - dá espaço.<br>
+
+        Acentuação $atilde;<br>
+
+        Emoji - &#128151 & # 128151
+        <br>
+
+        &copy;
+        &nbsp;
+        
+        </p>
+    </article>
+
+    <article class="aula2">
+        <h1>Aula 2 - Favicon</h1>
+        <p>Figuras de ícones na aba de navegação.</p>
+
+        <!-- A figura que aparece na aba do navegador, ajuda na identificação da página -->
+
+        <!-- Site que converte figuras em favicon: favicon.io -->
+        <!-- Esse link coloca favicon, adiciona na TAG head,, o tamanho mais comum é 32x32.
+        <link rel="shortcut icon" href="./images/logoESSE FULLSTACK/favicon_io/favicon.ico" type="image/x-icon"> -->
+
+    </article>
+
+
+
     <!-- Aula 1 -->
     <!-- TAG Picture
     Não tem como ser usada em todas as versões de navegadores.
@@ -32,8 +70,20 @@
 
     <article class="aula1">
         <h1>INICIO AVANÇADO</h1>
+        <h2>Aula 1 - Picture</h2>
+
+        <picture class="picture">
+            <!-- Vai procurar outra imagem a depender do tamanho ajustado -->
+            <source media="(min-width: 768px)" srcset="images/IMAGEMGRANDE.jpg" type="image/jpg">
+            <source media="(min-width: 475px)" srcset="images/IMAGEMMEDIA.jpg" type="image/jpg">
+
+            <img src="./images/IMAGEMPEQUENA.jpg" alt="Passarinho com frutas">
+        </picture>
+
 
     </article>
+
+    
     
 </body>
 </html>

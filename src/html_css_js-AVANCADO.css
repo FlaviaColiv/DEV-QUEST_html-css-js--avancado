@@ -1,2 +1,13 @@
-/* AULA 1 */
+body {
+    margin-top: 20px;
+    padding-top: 10px;
+}
 
+/* AULA 1 */
+ 
+
+.picture {
+    min-width: 250px;
+    max-width: 900px;
+    margin: 0 auto;
+ }
