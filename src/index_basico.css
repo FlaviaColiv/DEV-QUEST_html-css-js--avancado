@@ -1,6 +1,8 @@
 body {
     background-color: rgba(128, 128, 128, 0.274);
     color: #9c7602d8;
+    margin-top: 20px;
+    padding-top: 10px;
 }
 
 .cabecalho {
