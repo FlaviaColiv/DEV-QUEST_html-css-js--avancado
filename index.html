@@ -29,11 +29,38 @@
 
     </header>
 
+    <article class="aula5">
+        <h1>Aula 5 - Adição de Vídeos</h1>
+        <!-- Sites para videos gratuitos para downlaods:  
+            https://www.storyblocks.com/video
+            https://www.pexels.com/pt-br/
+            Conversor de videos:
+            https://convertio.co/pt/
+        -->
+        
+        
+    </article>
+
     <article class="aula4">
         <h1>Aula 4 - Adição de Áudio</h1>
         
+        <audio src="./audio/audio.mp3" controls preload="none">Audio mp3</audio>
 
-        
+        <!-- Adição de controls faz aparecer os controles de player.
+        O chrome não permite o autoplay, para isso precisa de bibliotecas com essa finalidade.
+    Preload - automaticamente vem como auto, mesmo que não aperte para ouvir irá fazer o download e utilizar a panda.
+metada - carrega algumas informações e não o áudio todo, só faz o download somente se apertar em play.
+none - não carrega dados, nem informações, só carrega se apertar play e tamanho do áudio.
+Cada navegador aceita extensões ou não 
+(Safary não aceita .agg).
+Para resolver escrever de uma forma que ele toque as diferentes versões que devem estar disponíveis em seu site, para que cada tipo de navegador rode adequadamente, mesmo que tenha a limitação de tocar determinada extensão.
+Conversor de audio: https://convertio.co/pt/%E2%80%8B
+-->
+        <audio controls>
+            <source src="./audio/audio.ogg" type="audio/ogg">
+            <source src="./audio/audio.mp3" type="audio/mpeg">
+            <p>Seu navegador não tem suporte a TAG audio</p>
+        </audio>
     </article>
 
     <article class="aula3">
