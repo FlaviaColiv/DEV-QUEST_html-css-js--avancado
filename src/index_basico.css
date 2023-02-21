@@ -65,6 +65,8 @@ article {
 .logo-img {
     background-size: cover;
     height: 100px;
-    margin-left: 20px;
+    margin: 10px 10px 1px 20px;
+    /* margin-left: 20px;
+    margin-top: 10px; */
 }
 
