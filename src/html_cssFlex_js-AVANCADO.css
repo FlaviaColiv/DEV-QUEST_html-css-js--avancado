@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.container div {
+  background-color: bisque;
+  color: whitesmoke;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.wrap {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flow {
+  flex-flow: row wrap;
+}
