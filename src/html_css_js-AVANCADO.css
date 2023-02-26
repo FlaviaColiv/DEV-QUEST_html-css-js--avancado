@@ -10,3 +10,54 @@
  /* CSS AVANÇADO */
 
  /* AULA 1 */
+
+ /* seletor:pseudo-classe {
+    propriedade: valor;
+ } */
+
+ .primeira-aula:first-child {
+    color: blueviolet;
+ }
+
+ .primeira-aula:last-child {
+    color: rgb(236, 8, 252);
+ }
+
+ /* AULA 2 - PSEUDO ELEMENTO */
+
+ /* seletor::pseudo-elemento {
+    propriedade: valor:
+ } */
+
+ .h2aula2::first-letter {
+    color: rgb(175, 208, 28);
+    font-size: 2.5em;
+ }
+
+ .primeira-linha::first-line {
+    color: rgb(40, 170, 126);
+ }
+
+.liaula2::marker {
+    color: brown;
+    font-size: 2em;
+}
+
+.primeira-linha::before {
+    content: "";
+    background: url(../images/logoESSE\ FULLSTACK/favicon_io/favicon-32x32.png) center center no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.primeira-linha::after {
+    content: url(../images/logoESSE\ FULLSTACK/favicon_io/favicon-32x32.png);
+    /* background: url(../images/logoESSE\ FULLSTACK/favicon_io/favicon-32x32.png) center center no-repeat;
+    display: inline-block;
+    width: 32px 32px; */
+}
+
+/* AULA 3  */
+
+
