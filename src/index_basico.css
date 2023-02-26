@@ -22,18 +22,19 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .titulo {
     justify-content: center;
-    margin-left: 50px;
-    margin-top: 40px;
+    
 }
 
 nav ul {
     display: flex;
     flex-flow: column wrap;
-    
 }
 
 .cabecalho {
@@ -50,14 +51,14 @@ nav ul {
     display: inline-block;
 }
 
-.cabecalho nav {
+/* .cabecalho nav {
     float: right;
     position: absolute;
     top: 50%;
     right: 0.5%;
     transform: translatey(-50%);
     text-align: end;
-}
+} */
 
 .cabecalho nav li {
     display: inline-block;
@@ -74,6 +75,10 @@ a {
     background-color: var(--background-color-links);
     color: var(--cor-fonte-links);
 }
+
+/* .indice:first-child {
+    padding-top: 20px;
+  } */
 
 a:visited {
     color: var(--cor-fonte-links);  
@@ -98,8 +103,12 @@ article {
 .logo-img {
     background-size: cover;
     height: 100px;
-    margin: 10px 10px 1px 20px;
-    /* margin-left: 20px;
-    margin-top: 10px; */
+    /* margin: 10px 10px 1px 20px; */
+    margin-left: 20px; 
+    /* margin-top: 10px; */ 
 }
 
+.links:first-child {
+    padding-top: 20px;
+    flex: 1;
+}
