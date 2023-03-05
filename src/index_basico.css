@@ -112,3 +112,23 @@ article {
     padding-top: 20px;
     flex: 1;
 }
+
+/* GLOBAL */ 
+
+.container {
+    display: flex;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    /* height: 130px; */
+  }
+  
+  .item {
+    background-color: rgb(195, 145, 241);
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .justify-content .item1, .justify-content .item3 {
+    width: 80px;
+  }
